@@ -16,6 +16,21 @@
         Requires a Java EE 7 application server like GlassFish 4 or JBoss Wildfly and a database like MySQL with a configured
         jndi/fwm datasource. Open the web application in your browser at http://localhost:8080/fwm
     </description>
+    <organization>
+        <name>Dominik Schadow</name>
+        <url>http://www.dominikschadow.de</url>
+    </organization>
+
+    <issueManagement>
+        <system>GitHub</system>
+        <url>https://github.com/dschadow/Java-EE-Security/issues</url>
+    </issueManagement>
+
+    <scm>
+        <connection>scm:git:git@github.com:dschadow/Java-EE-Security.git</connection>
+        <developerConnection>scm:git:git@github.com:dschadow/Java-EE-Security.git</developerConnection>
+        <url>https://github.com/dschadow/Java-EE-Security</url>
+    </scm>
 
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
